@@ -35,6 +35,12 @@ class getArgs:
     def putFullSql(self, file_name):
         return f'{self.dirname}\{self.sql}\\'+file_name+'.sql'
 
+    def putFullHoja(self, file_name):
+        return f'{self.dirname}\{self.sql}\\'+file_name+'.xlsx'
+
+    def putFullSqldf(self, file_name):
+        return f'{self.dirname}\{self.sql}\\'+file_name+'.sqldf'
+
 
 class openFile:
     def open_r(self,file):
